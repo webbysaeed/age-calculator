@@ -3,14 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>webbysaeed: Age Calculator</title>
+    <title>Age Calculator</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
         <h1>Age Calculator</h1>
-        <input type="date" id="startDate" placeholder="Enter start date">
-        <input type="date" id="endDate" placeholder="Enter end date (optional)">
+        
+        <div class="input-group">
+            <label for="startDate">DOB (Date of Birth):</label>
+            <input type="date" id="startDate" required>
+        </div>
+        
+        <div class="input-group">
+            <label for="endDate">End Date (optional):</label>
+            <input type="date" id="endDate">
+        </div>
+        
         <button onclick="calculateAge()">Calculate Age</button>
         <p id="result"></p>
     </div>

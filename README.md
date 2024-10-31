@@ -26,7 +26,7 @@ A simple web application to calculate age based on a start date and an optional 
 
 ## Demo
 
-![Demo Image](link-to-your-demo-image) *(Add a screenshot or demo link here)*
+![Demo Image](https://webbysaeed.github.io/age-calculator/)
 
 ## License
 
